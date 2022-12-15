@@ -4,12 +4,12 @@ import PluguinPainel from "./PluguinsPainel";
 
 function Pluguins() {
     return (
-        <>
+        <div className="plugins">
             <Header />
             <Sidebar />
             <PluguinPainel/>
-            <span className="titles">Pluguins</span>
-        </>
+            <span className="titles">Plugins</span>
+        </div>
     )
 }
 

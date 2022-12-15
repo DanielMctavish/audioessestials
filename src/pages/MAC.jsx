@@ -6,13 +6,13 @@ import MacPainel from "./MacPainel";
 
 function Mac() {
     return (
-        <>
+        <div className="mac">
             <HeaderMac/>
             <Sidebar />
             <Sidebar2/>
             <MacPainel/>
-            <span className="titles">Mac - SO</span>
-        </>
+            <span className="titles">Mac - OS</span>
+        </div>
     )
 }
 

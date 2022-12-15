@@ -6,13 +6,13 @@ import LinuxPainel from "./LinuxPainel";
 
 function Linux() {
     return (
-        <>
+        <div className="linux">
             <HeaderLinux/>
             <Sidebar />
             <Sidebar2/>
             <LinuxPainel/>
             <span className="titles">Linux</span>
-        </>
+        </div>
     )
 }
 

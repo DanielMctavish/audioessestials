@@ -1,22 +1,26 @@
 import "./pages.css"
 import instance from "../scripts/Api.js";
 import { useState } from "react";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 
 
 function DawsPainel() {
     const [itemssearchdaw, setItemsSearchDaw] = useState([])
 
-    instance.get("itemssearchdaw").then(res => {
-        setItemsSearchDaw(res.data)
-    })
+
+    useEffect(() => {
+        instance.get("itemssearchdaw").then(res => {
+            setItemsSearchDaw(res.data)
+        })
+    }, [itemssearchdaw])
+    
     return (
         <div className="painel-daw">
             {Array.isArray(itemssearchdaw) ?
                 itemssearchdaw.map(el => {
-                    return <div className="itemPost" onClick={() => {
-                        window.location = `/painel/${el._id}`
-                    }}>
+                    return <Link to={`/painel/${el._id}`} style = {{background:"none"}}> <div className="itemPost">
 
                         <div className="img-slot-post">
                             <img src={el.img} alt="" className="img-item-post" />
@@ -26,6 +30,7 @@ function DawsPainel() {
                             <p dangerouslySetInnerHTML={{ __html: el.descri }}></p>
                         </div>
                     </div>
+                    </Link>
                 })
                 : ""
             }

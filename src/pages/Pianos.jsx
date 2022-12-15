@@ -4,12 +4,12 @@ import PianosPainel from "./PianosPainel";
 
 function Pianos() {
     return (
-        <>
+        <div className="pianos">
             <Header />
             <Sidebar/>
             <PianosPainel/>
             <span className="titles">Pianos</span>
-        </>
+        </div>
     )
 }
 

@@ -15,6 +15,18 @@
     background-color: rgb(36, 36, 36);
 }
 
+#daw-interface-img{
+    position: absolute;
+    height: 125vh;
+}
+
+#links-painel{
+    position: relative;
+    left: auto;
+    right: auto;
+    width: 95%;
+    margin-left: 12vh;
+}
 
 .main-content,
 .main-content-search {
@@ -30,6 +42,7 @@
     justify-content: start;
     align-items: center;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .main-content-search {
@@ -76,6 +89,7 @@
 
 .pagination {
     margin-top: 2vh;
+    z-index: 1;
 }
 
 .pagination button {

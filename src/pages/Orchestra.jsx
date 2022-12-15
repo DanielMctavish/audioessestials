@@ -4,12 +4,12 @@ import OrchestraPainel from "./OrchestraPainel";
 
 function Orchestra() {
     return (
-        <>
+        <div className="orchestra">
             <Header />
             <Sidebar />
             <OrchestraPainel/>
             <span className="titles">ORCHESTRA</span>
-        </>
+        </div>
     )
 }
 

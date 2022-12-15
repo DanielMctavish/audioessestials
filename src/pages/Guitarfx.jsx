@@ -4,12 +4,12 @@ import GuitarPainel from "./GuitarfxPainel";
 
 function Guitar() {
     return (
-        <>
+        <div className="guitar">
             <Header />
             <Sidebar />
             <GuitarPainel/>
             <span className="titles">Guitar - FX</span>
-        </>
+        </div>
     )
 }
 

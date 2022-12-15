@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance =  axios.create({
-	baseURL: `http://localhost:5120/`
+	baseURL: `https://audioessentials.onrender.com/`
 })
 
 export default instance;

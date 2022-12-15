@@ -4,12 +4,12 @@ import DrumsKitsPainel from "./DrumsKitPainel";
 
 function Drumkits() {
     return (
-        <>
+        <div className="drums">
             <Header />
             <Sidebar />
             <DrumsKitsPainel/>
             <span className="titles">Drum Kits</span>
-        </>
+        </div>
     )
 }
 

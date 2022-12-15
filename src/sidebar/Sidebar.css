@@ -16,5 +16,5 @@
 
 .sidebar{
     right: 20%;
-    background: rgb(88, 0, 0);
+    background: linear-gradient(to top,rgb(88, 0, 0),rgb(150, 38, 38));
 }

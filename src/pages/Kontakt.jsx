@@ -4,12 +4,12 @@ import KontaktPainel from "./KontaktPainel";
 
 function Kontakt() {
     return (
-        <>
+        <div className="orchestra">
             <Header />
             <Sidebar />
             <KontaktPainel/>
             <span className="titles">Kontakt</span>
-        </>
+        </div>
     )
 }
 

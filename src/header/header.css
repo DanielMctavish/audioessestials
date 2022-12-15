@@ -4,10 +4,10 @@
 .header-windows,
 .header-linux{
     position: absolute;
-    top: 0;
+    top: 2vh;
 
-    width: 100%;
-    height: 40vh;
+    width: 98%;
+    height: 36vh;
     background: white;
     color: black;
     box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.432);
@@ -18,11 +18,15 @@
     align-items: center;
 
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .painel-front-mac{
     background: rgba(218, 218, 218, 0.658);
     backdrop-filter: blur(12px);
+    width: 100%;
+    height: 40vh;
+    top: 0;
 }
 
 .header img{
