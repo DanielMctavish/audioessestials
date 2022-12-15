@@ -1,0 +1,17 @@
+
+.search-bar{
+    position: absolute;
+    top: 2vh;
+    width: 240px;
+    min-height: 40px;
+    border: 1px solid white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-bar input{
+    text-align: center;
+    min-height: 20px;
+}

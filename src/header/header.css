@@ -1,0 +1,30 @@
+.header,
+.header-mac,
+.painel-front-mac,
+.header-windows,
+.header-linux{
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 40vh;
+    background: white;
+    color: black;
+    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.432);
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.painel-front-mac{
+    background: rgba(218, 218, 218, 0.658);
+    backdrop-filter: blur(12px);
+}
+
+.header img{
+    width: 100%;
+}

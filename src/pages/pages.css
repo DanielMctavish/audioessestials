@@ -1,0 +1,109 @@
+.titles{
+    position: absolute;
+    width: 100%;
+    top: 15vh;
+    text-align: center;
+    font-size: 35pt;
+    z-index: 1;
+    color: white;
+    font-weight: 600;
+}
+.title-painel{
+    letter-spacing: 5px;
+}
+
+.items-painel{
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    background: rgb(48, 48, 48);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-details{
+    position: absolute;
+    top: 45vh;
+    width: 60%;
+    height: 100vh;
+    background: rebeccapurple;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.descri-item-painel{
+    margin-top: 7vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-details img{
+    margin-top: 2vh;
+    width: 60%;
+}
+
+
+
+.painel-daw,
+.painel-piano,
+.drums-kit-painel,
+.orchestra-painel,
+.kontakt-painel,
+.guitar-painel,
+.pluguins-painel,
+.acousticguitar-painel,
+.bass-painel,
+.worldmusic-painel,
+.percussion-painel,
+.windows-painel,
+.mac-painel,
+.linux-painel,
+.synth-painel{
+    position: absolute;
+    width: 60%;
+    height: 125vh;
+    left: 0;
+    top: 40vh;
+    background: rgb(50, 115, 141);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.windows-painel{
+    background: rgb(26, 44, 70);
+}
+
+.mac-painel{
+    background: linear-gradient(to top,rgb(107, 107, 107),rgb(187, 187, 187)) ;
+}
+
+.linux-painel{
+    background: linear-gradient(to top,rgb(78, 0, 131),rgb(121, 44, 0)) ; 
+}
+
+.magnetic-button{
+    cursor: pointer;
+    background: rgb(0, 145, 19);
+    width: 200px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh;
+    border-radius: 4px ;
+}

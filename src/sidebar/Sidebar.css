@@ -1,0 +1,20 @@
+.sidebar,.sidebar2{
+    position: absolute;
+    right:0;
+    top: 40vh;
+
+    width: 20%;
+    height: 125vh;
+    background: rgb(83, 83, 83);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sidebar{
+    right: 20%;
+    background: rgb(88, 0, 0);
+}

@@ -1,0 +1,104 @@
+.main-content,
+.main-content-search,
+.painel-item-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.main-content,
+.main-content-search::-webkit-scrollbar-track {
+    background: rgb(224, 224, 224);
+    width: 10px;
+}
+
+.main-content,
+.main-content-search::-webkit-scrollbar-thumb {
+    background-color: rgb(36, 36, 36);
+}
+
+
+.main-content,
+.main-content-search {
+    position: absolute;
+    top: 40vh;
+    left: 0vh;
+    width: 60%;
+    height: 125vh;
+    background: rgb(41, 41, 41);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.main-content-search {
+    display: none;
+    background: rgb(20, 99, 75);
+}
+
+.itemPost {
+    cursor: pointer;
+    position: relative;
+    width: 85%;
+    min-height: 200px;
+    background: white;
+    color: black;
+    margin-top: 1vh;
+    border-radius: 7px;
+    display: flex;
+    overflow: hidden;
+}
+
+.img-item-post {
+    position: relative;
+    height: 200px;
+}
+
+.img-slot-post {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel-item-content {
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    height: 200px;
+    overflow-y: auto;
+    margin-left: 2vh;
+}
+
+.pagination {
+    margin-top: 2vh;
+}
+
+.pagination button {
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    margin: 2px;
+}
+.pagination button:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.658);
+}
+
+.date-post{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background: red;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
